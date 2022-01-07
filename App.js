@@ -4,10 +4,10 @@ console.log('Hello');
 //        console.log(window.location.hash);
         const chosenOption = window.location.hash.slice(1);
         if(chosenOption=='login'){
-            window.location.assign("http://127.0.0.1:8000/");
+            window.location.assign("https://mailitappbyrb.herokuapp.com/");
         }
         if(chosenOption=='register'){
-            window.location.assign("http://127.0.0.1:8000/reg");
+            window.location.assign("https://mailitappbyrb.herokuapp.com/reg");
         }
     })
 })
